@@ -15,9 +15,8 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    @Bean
+    /*@Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
-        return args -> {
 
             System.out.println("Let's inspect the beans provided by Spring Boot:");
 
@@ -26,8 +25,7 @@ public class Application {
             for (String beanName : beanNames) {
                 System.out.println(beanName);
             }
-
-        };
-    }
+            return args;
+    }*/
 
 }
