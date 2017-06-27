@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.HelloControllerIT" time="0" tests="1" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Mohan\git\cloudms\gs-spring-boot\complete"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Mohan\git\cloudms\gs-spring-boot\complete"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mohan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\softwares\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_111\bin;C:\softwares\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLI\;C:\Users\Mohan\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Mohan\AppData\Local\Programs\Python\Python36\;C:\Users\Mohan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\Mohan\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Mohan"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Mohan"/>
+    <property name="java.class.path" value="C:\softwares\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\softwares\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="hello.HelloControllerIT" classname="hello.HelloControllerIT" time="0">
+    <skipped/>
+    <system-out><![CDATA[23:43:28.437 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.HelloControllerIT]
+23:43:28.437 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:43:28.452 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:43:28.486 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.HelloControllerIT] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:43:28.513 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.HelloControllerIT], using SpringBootContextLoader
+23:43:28.524 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerIT-context.xml] does not exist
+23:43:28.525 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerITContext.groovy] does not exist
+23:43:28.527 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.HelloControllerIT]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:43:28.529 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.HelloControllerIT]: HelloControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:43:28.589 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.HelloControllerIT]
+23:43:28.601 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:43:28.601 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:43:28.602 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:43:28.617 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [hello/] to resources [URL [file:/C:/Users/Mohan/git/cloudms/gs-spring-boot/complete/target/test-classes/hello/], URL [file:/C:/Users/Mohan/git/cloudms/gs-spring-boot/complete/target/classes/hello/]]
+23:43:28.618 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mohan\git\cloudms\gs-spring-boot\complete\target\test-classes\hello]
+23:43:28.625 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mohan\git\cloudms\gs-spring-boot\complete\target\test-classes\hello] for files matching pattern [C:/Users/Mohan/git/cloudms/gs-spring-boot/complete/target/test-classes/hello/*.class]
+23:43:28.632 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mohan\git\cloudms\gs-spring-boot\complete\target\classes\hello]
+23:43:28.632 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mohan\git\cloudms\gs-spring-boot\complete\target\classes\hello] for files matching pattern [C:/Users/Mohan/git/cloudms/gs-spring-boot/complete/target/classes/hello/*.class]
+23:43:28.634 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:hello/*.class] to resources [file [C:\Users\Mohan\git\cloudms\gs-spring-boot\complete\target\test-classes\hello\HelloControllerIT.class], file [C:\Users\Mohan\git\cloudms\gs-spring-boot\complete\target\test-classes\hello\HelloControllerTest.class], file [C:\Users\Mohan\git\cloudms\gs-spring-boot\complete\target\classes\hello\Application.class], file [C:\Users\Mohan\git\cloudms\gs-spring-boot\complete\target\classes\hello\HelloController.class]]
+23:43:28.701 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Mohan\git\cloudms\gs-spring-boot\complete\target\classes\hello\Application.class]
+23:43:28.711 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.Application for test class hello.HelloControllerIT
+23:43:28.714 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hello.HelloControllerIT]: using defaults.
+23:43:28.719 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+23:43:28.749 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+23:43:28.754 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+23:43:28.755 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@b7f23d9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61d47554, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@69b794e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3f200884, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4d339552, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@f0f2775, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5a4aa2f2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6591f517, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@345965f2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@429bd883]
+23:43:28.759 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.HelloControllerIT]
+23:43:28.760 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.HelloControllerIT]
+23:43:28.763 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.HelloControllerIT]
+23:43:28.763 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:43:28.763 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:43:28.766 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.HelloControllerIT] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:43:28.767 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.HelloControllerIT], using SpringBootContextLoader
+23:43:28.768 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerIT-context.xml] does not exist
+23:43:28.769 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerITContext.groovy] does not exist
+23:43:28.769 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.HelloControllerIT]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:43:28.770 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.HelloControllerIT]: HelloControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:43:28.777 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.HelloControllerIT]
+23:43:28.777 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:43:28.777 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:43:28.777 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:43:28.777 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.Application for test class hello.HelloControllerIT
+23:43:28.777 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hello.HelloControllerIT]: using defaults.
+23:43:28.777 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+23:43:28.792 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+23:43:28.792 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+23:43:28.792 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1b083826, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@105fece7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3ec300f1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@482cd91f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@123f1134, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7d68ef40, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5b0abc94, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@75c072cb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1f1c7bf6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@25b485ba]
+23:43:28.792 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.HelloControllerIT]
+23:43:28.792 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.HelloControllerIT]
+23:43:28.792 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.HelloControllerIT]
+23:43:28.792 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.HelloControllerIT]
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/Mohan/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/Mohan/.m2/repository/org/slf4j/slf4j-nop/1.7.21/slf4j-nop-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+]]></system-err>
+  </testcase>
+</testsuite>
